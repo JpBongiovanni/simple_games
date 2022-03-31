@@ -4,13 +4,22 @@
     display: flex;
     flex-wrap: wrap;
     background-color: grey;
+    outline: 1px solid black;
 }
 
 .grid div {
     height: 40px;
     width: 40px;
+    outline: 1px solid black;
+}
+
+.checked {
+    background-color: red;
+    outline: 1px solid black;
 }
 
 .bomb {
-    background-color: orange;
+    background-color: grey;
+    outline: 1px solid black;
 }
+
